@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+	 font: 15px/1.5 Arial, Helvetica, Sans-serif;
+}
+
+.container {
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(igor-miske-174209-unsplash.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	width:100%;
+	overflow: hidden;
+}
+
+.container h1 {
+	text-align: center;
+	color: white;
+	font-size: 70px;
+	padding: 170px 40px;
+	padding-bottom: 30px;
+	margin: 0px 40px; 
+}
+
+.button {
+	padding: 10px 10px;
+	background-color: white;
+	border: none;
+	border-radius: 10px 10px 10px 10px;
+	font-size: 15px;
+	font-family: : Arial, Helvetica, Sans-serif;
+	margin: 0px 46.5%;
+	margin-bottom: 40px;
+}
+
+.button:hover{
+	transition: all 1s;
+	cursor: pointer;
+	transform: scale(1.1);
+}
